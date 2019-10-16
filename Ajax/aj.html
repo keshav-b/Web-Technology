@@ -1,0 +1,54 @@
+<html>
+<head>
+<script type="text/javascript">
+function fun1()
+{
+var a;
+
+ 	a=new XMLHttpRequest();
+a.onreadystatechange=function()
+{
+if (a.readyState==4 && a.status==200)
+ {
+ document.getElementById("myDiv").innerHTML=a.responseText;
+ }
+ 
+}
+var year = document.getElementById('drop').value;
+if(year == '1983')
+{a.open("POST","1983.txt",true);
+a.send();}
+
+else if(year == '1987')
+{a.open("POST","1987.txt",true);
+a.send();}
+
+else if(year == '2011')
+{a.open("POST","2011.txt",true);
+a.send();}
+
+else if(year == '2015')
+{a.open("POST","2015.txt",true);
+a.send();}
+
+else if(year == '2019')
+{a.open("POST","2019.txt",true);
+a.send();}
+
+}
+</script> 
+</head>
+<body>
+<h1>World CUP Winners</h1>	
+<div id="myDiv" >Select Year to print world cup winner</div>
+<select id='drop'>
+	<option value="1983">1983</option>
+	<option value="1987">1987</option>
+	<option value="2011">2011</option>
+	<option value="2015">2015</option>
+	<option value="2019">2019</option>
+</select>
+<button  type="submit" onclick="fun1()">PRESS HERE</button>
+
+</body>
+</html> 
