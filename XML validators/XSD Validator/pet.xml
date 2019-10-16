@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="xml_xsl_trans.xsl"?>
+<customers>
+	<customer no="1">
+		<name>Dhoni</name>
+		<nation>India</nation>
+		<role>Wicket Keeper</role>
+		<ipl>CSK</ipl>
+	</customer>
+	<customer no="2">
+		<name>Kohli</name>
+		<nation>India</nation>
+		<role>Batsmen</role>
+		<ipl>RCB</ipl>
+	</customer>
+	<customer no="3">
+		<name>Williamson</name>
+		<nation>New Zeland</nation>
+		<role>Batsmen</role>
+		<ipl>SRH</ipl>
+	</customer>
+	<customer no="4">
+		<name>Bret Lee</name>
+		<nation>Asutralia</nation>
+		<role>Bowler</role>
+		<ipl>KKR</ipl>
+	</customer>
+</customers>
