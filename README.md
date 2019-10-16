@@ -1,6 +1,3 @@
-# Web-Technology
-Web Technology Programs done as part of my Undergrad Course
-
 ## PROGRAMS INCLUDED
 1. XML Transformation using XSL and CSS
 2. DOM and SAX Parsers
